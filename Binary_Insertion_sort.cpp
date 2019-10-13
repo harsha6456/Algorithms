@@ -15,7 +15,7 @@ int binarySearch(int a[], int item, int low, int high)
     return binarySearch(a, item, low, mid-1); 
 } 
   
-// Function to sort an array a[] of size 'n' 
+
 void insertionSort(int a[], int n) 
 { 
     int i, loc, j, k, selected; 
